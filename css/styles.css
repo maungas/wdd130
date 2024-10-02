@@ -1,5 +1,27 @@
+/* Added nav rule */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+/* Added nav anchor rule */
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Added heading 1 rule */
+h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+/* Updated main rule with max-width declaration */
 main {
     width: 800px;
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -27,10 +49,10 @@ p {
     padding: 0;
 }
 
-
 footer {
     margin-top: 20px;
     border-top: 1px solid #ccc;
     text-align: center;
     padding: 10px;
 }
+
