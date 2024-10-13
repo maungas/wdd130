@@ -47,6 +47,51 @@ figure {
     overflow: hidden; /* Ensure no overflow */
 }
 
+.google-map {
+    width: 100%;
+    height: 450px;
+    border: 0;
+}
+
+.employee-profile {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+
 figcaption {
     position: absolute;
     bottom: 0;
