@@ -1,5 +1,3 @@
-/* styles/rafting.css */
-
 /* Basic reset */
 * {
     margin: 0;
@@ -21,15 +19,19 @@ header {
     padding: 10px 20px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
 header img {
     height: auto;
     max-width: 100%;
+    margin-right: 20px; /* Spacing between the logo and nav */
 }
 
 /* Navigation styling */
+nav {
+    display: flex; /* To align nav items horizontally */
+}
+
 nav a {
     color: #ffffff;
     text-decoration: none;
@@ -59,7 +61,6 @@ nav a:hover {
 }
 
 .hero img {
-    float: left;
     margin-right: 20px;
     border-radius: 50%;
 }
