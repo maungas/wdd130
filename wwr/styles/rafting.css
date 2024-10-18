@@ -82,7 +82,7 @@ section {
     margin: 20px 0;
     width: 100%;
     max-width: 1000px;
-    text-align: left; /* Align section text to the left */
+    text-align: center; /* Align section text to the left */
     position: relative;
 }
 
@@ -112,11 +112,12 @@ figcaption {
 }
 
 /* Footer styling */
+/* Footer styling */
 footer {
     background-color: #004466;
     color: #ffffff;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; /* Align items to the left and right */
     align-items: center;
     width: 100%;
     max-width: 1200px;
@@ -127,9 +128,14 @@ footer p {
     margin: 0;
 }
 
+footer .social-icons {
+    display: flex;
+    justify-content: flex-end; /* Align icons to the right */
+    gap: 10px; /* Spacing between icons */
+}
+
 footer a {
     color: #ffffff;
-    margin: 0 5px;
     text-decoration: none;
 }
 
@@ -137,7 +143,3 @@ footer a:hover {
     color: #00c4cc;
 }
 
-footer .social-icons {
-    align-items: right;
-    gap: 10px;
-}
