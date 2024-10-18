@@ -88,7 +88,7 @@ section {
 
 /* History image styling */
 section img {
-    float: right; /* Float image to the right */
+    float: center; /* Float image to the right */
     margin: 0 0 10px 20px; /* Add margin around the image */
     max-width: 200px; /* Set maximum width for the image */
 }
@@ -138,6 +138,6 @@ footer a:hover {
 }
 
 footer .social-icons {
-    display: right;
+    align-items: right;
     gap: 10px;
 }
